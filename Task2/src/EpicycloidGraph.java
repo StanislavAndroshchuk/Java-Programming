@@ -1,3 +1,5 @@
+package Task2.src;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
@@ -11,8 +13,8 @@ public class EpicycloidGraph extends JPanel {
     private Stroke graphStroke = new BasicStroke(2.0f);
     private String authorInfo = "Автор: Андрощук Станіслав";
     private String variantInfo = "№ варіанта: 1";
-    private double A = 8.0;
-    private double a = 2.0;
+    private double A = 35.0;
+    private double a = 6.0;
 
     private double scaleX = 50.0; // Масштаб по X
     private double scaleY = 50.0; // Масштаб по Y
